@@ -3,6 +3,7 @@ import { Link, useLoaderData } from "react-router-dom";
 // helper functions
 import { createBudget, createExpense, deleteItem, fetchData, wait } from "../helper"
 import Intro from "../components/Intro";
+//components
 import { toast } from "react-toastify";
 import AddBudgetForm from "../components/AddBudgetForm";
 import AddExpenseForm from "../components/AddExpenseForm";
