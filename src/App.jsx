@@ -5,8 +5,8 @@ import Error from "./pages/Error"
 import Main, { mainLoader } from "./layouts/Main"
 // actions
 import { logoutAction } from "./actions/logout" 
-import { deleteBudget } from "./actions/deleteBudget"
-// Libraru
+import deleteBudget from "./actions/deleteBudget"
+// Library
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ExpensesPage, {expensesAction, expensesLoader} from "./pages/ExpensesPage"
